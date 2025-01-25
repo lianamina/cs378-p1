@@ -7,11 +7,11 @@ body {
 .header-text {
   font-family: 'Dancing Script', cursive;
   color: #8B0000;
-  font-size: 1.5rem;
+  font-size: calc(1.25rem + 1vw); /* Make it responsive */
 }
 
 .tagline {
-  font-size: 1rem;
+  font-size: calc(0.875rem + 0.5vw); /* Adjusts size for different screens */
   color: #555;
 }
 
@@ -22,18 +22,18 @@ body {
 
 .menu-title {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: calc(1rem + 1vw); /* Dynamic font size */
 }
 
 .menu-description {
   color: #666;
   margin: 0.5rem 0;
-  font-size: 0.9rem;
+  font-size: calc(0.875rem + 0.3vw); /* Dynamic font size */
 }
 
 .menu-price {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: calc(0.9rem + 0.2vw); /* Adjust based on screen size */
 }
 
 .btn-add {
