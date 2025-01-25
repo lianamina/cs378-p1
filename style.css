@@ -18,23 +18,34 @@ body {
   color: #555;
 }
 
-.card {
-  border: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.menu-item {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
 }
 
-.card-title {
+.menu-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-title {
   font-weight: bold;
-}
-
-.card-text {
-  color: #666;
-}
-
-.price {
   font-size: 1.25rem;
+  margin: 0;
+}
+
+.menu-description {
+  color: #666;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.menu-price {
   font-weight: bold;
-  color: #333;
+  font-size: 1rem;
+  margin: 0.5rem 0;
 }
 
 .btn-add {
@@ -49,10 +60,4 @@ body {
 
 .btn-add:hover {
   background-color: #e55337;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
 }
