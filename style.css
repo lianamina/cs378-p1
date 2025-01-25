@@ -19,12 +19,9 @@ body {
     color: #222222;
   }
   
-   .card {
+  .card {
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
   }
   
   .card-title {
