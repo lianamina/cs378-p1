@@ -5,9 +5,10 @@ body {
 }
 
 .header-text {
-  font-family: 'Dancing Script', cursive;
+  margin-top: 20px;
+  font-family: 'Cookie', cursive;
   color: #33923e;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .tagline {
