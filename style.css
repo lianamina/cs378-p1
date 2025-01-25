@@ -6,7 +6,7 @@ body {
 
 .header-text {
   font-family: 'Dancing Script', cursive;
-  color: #8B0000;
+  color: #33923e;
   font-size: 1.5rem;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .btn-add {
-  background-color: #ff6347;
+  background-color: #69cb75;
   color: white;
   border: none;
   border-radius: 50px;
@@ -47,5 +47,5 @@ body {
 }
 
 .btn-add:hover {
-  background-color: #e55337;
+  background-color: #69cb75;
 }
