@@ -2,15 +2,12 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
   color: #333;
-  margin: 0;
-  padding: 0;
 }
 
 .header-text {
   font-family: 'Dancing Script', cursive;
   color: #8B0000;
   font-size: 1.5rem;
-  margin-top: 1rem;
 }
 
 .tagline {
@@ -23,17 +20,9 @@ body {
   padding-bottom: 1rem;
 }
 
-.menu-img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
 .menu-title {
   font-weight: bold;
   font-size: 1.25rem;
-  margin: 0;
 }
 
 .menu-description {
@@ -45,7 +34,6 @@ body {
 .menu-price {
   font-weight: bold;
   font-size: 1rem;
-  margin: 0.5rem 0;
 }
 
 .btn-add {
