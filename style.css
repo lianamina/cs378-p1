@@ -21,7 +21,6 @@ body {
 .card {
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 100%;
   justify-content: space-between;
 }
 
@@ -35,15 +34,10 @@ body {
 
 .card-img-top {
   width: 100%;
-  height: 0;
+  height: 200px;
   padding-bottom: 100%;
   object-fit: cover;
   border-radius: 10px;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
 }
 
 .price {
