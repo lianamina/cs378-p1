@@ -11,8 +11,7 @@ body {
     color: #8B0000;
     font-size: 1.25rem;
     margin-top: 1rem;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
+    padding: 0 2rem;
   }
   
   .tagline {
@@ -20,9 +19,12 @@ body {
     color: #222222;
   }
   
-  .card {
+   .card {
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
   
   .card-title {
@@ -31,6 +33,12 @@ body {
   
   .card-text {
     color: #666;
+  }
+
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
   }
   
   .price {
@@ -57,34 +65,4 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-  }
-  
-  .card {
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 100%; /* Ensures all cards stretch equally */
-    display: flex;
-    flex-direction: column; /* Ensures content stacks vertically */
-    justify-content: space-between; /* Distributes space evenly */
-  }
-  
-  .card-img-top {
-    height: 150px; /* Ensures consistent image height */
-    object-fit: cover; /* Crops images to fit without distortion */
-    border-radius: 10px; /* Keeps rounded corners for images */
-  }
-  
-  .card-body {
-    flex-grow: 1; /* Makes the card body expand as needed */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .card-title, .card-text, .price, .btn-add {
-    margin-bottom: 0.5rem;
-  }
-  
-  .card .btn-add {
-    align-self: center; /* Center the button horizontally */
   }
