@@ -9,12 +9,14 @@ body {
   .header-text {
     font-family: 'Cookie', cursive;
     color: #8B0000;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-top: 1rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
   
   .tagline {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: #222222;
   }
   
@@ -57,3 +59,32 @@ body {
     border-radius: 10px;
   }
   
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Ensures all cards stretch equally */
+    display: flex;
+    flex-direction: column; /* Ensures content stacks vertically */
+    justify-content: space-between; /* Distributes space evenly */
+  }
+  
+  .card-img-top {
+    height: 150px; /* Ensures consistent image height */
+    object-fit: cover; /* Crops images to fit without distortion */
+    border-radius: 10px; /* Keeps rounded corners for images */
+  }
+  
+  .card-body {
+    flex-grow: 1; /* Makes the card body expand as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title, .card-text, .price, .btn-add {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card .btn-add {
+    align-self: center; /* Center the button horizontally */
+  }
