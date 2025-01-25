@@ -34,12 +34,6 @@ body {
   .card-text {
     color: #666;
   }
-
-  .card-img-top {
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
   
   .price {
     font-size: 1.25rem;
