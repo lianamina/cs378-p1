@@ -7,7 +7,7 @@ body {
 .header-text {
   font-family: 'Dancing Script', cursive;
   color: #8B0000;
-  font-size: 1.5rem; /* Use a base size */
+  font-size: 1.5rem;
 }
 
 .tagline {
@@ -48,71 +48,4 @@ body {
 
 .btn-add:hover {
   background-color: #e55337;
-}
-
-/* Responsive font sizes using Bootstrap's utility classes */
-@media (max-width: 576px) {
-  .header-text {
-    font-size: 1.25rem;
-  }
-
-  .tagline {
-    font-size: 0.875rem;
-  }
-
-  .menu-title {
-    font-size: 1.125rem;
-  }
-
-  .menu-description {
-    font-size: 0.8rem;
-  }
-
-  .menu-price {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-  .header-text {
-    font-size: 1.375rem;
-  }
-
-  .tagline {
-    font-size: 0.95rem;
-  }
-
-  .menu-title {
-    font-size: 1.2rem;
-  }
-
-  .menu-description {
-    font-size: 0.85rem;
-  }
-
-  .menu-price {
-    font-size: 0.95rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .header-text {
-    font-size: 1.5rem;
-  }
-
-  .tagline {
-    font-size: 1rem;
-  }
-
-  .menu-title {
-    font-size: 1.25rem;
-  }
-
-  .menu-description {
-    font-size: 0.9rem;
-  }
-
-  .menu-price {
-    font-size: 1rem;
-  }
 }
