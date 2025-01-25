@@ -7,11 +7,11 @@ body {
 .header-text {
   font-family: 'Dancing Script', cursive;
   color: #8B0000;
-  font-size: calc(1.25rem + 1vw); /* Make it responsive */
+  font-size: 1.5rem; /* Use a base size */
 }
 
 .tagline {
-  font-size: calc(0.875rem + 0.5vw); /* Adjusts size for different screens */
+  font-size: 1rem;
   color: #555;
 }
 
@@ -22,18 +22,18 @@ body {
 
 .menu-title {
   font-weight: bold;
-  font-size: calc(1rem + 1vw); /* Dynamic font size */
+  font-size: 1.25rem;
 }
 
 .menu-description {
   color: #666;
   margin: 0.5rem 0;
-  font-size: calc(0.875rem + 0.3vw); /* Dynamic font size */
+  font-size: 0.9rem;
 }
 
 .menu-price {
   font-weight: bold;
-  font-size: calc(0.9rem + 0.2vw); /* Adjust based on screen size */
+  font-size: 1rem;
 }
 
 .btn-add {
@@ -48,4 +48,71 @@ body {
 
 .btn-add:hover {
   background-color: #e55337;
+}
+
+/* Responsive font sizes using Bootstrap's utility classes */
+@media (max-width: 576px) {
+  .header-text {
+    font-size: 1.25rem;
+  }
+
+  .tagline {
+    font-size: 0.875rem;
+  }
+
+  .menu-title {
+    font-size: 1.125rem;
+  }
+
+  .menu-description {
+    font-size: 0.8rem;
+  }
+
+  .menu-price {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .header-text {
+    font-size: 1.375rem;
+  }
+
+  .tagline {
+    font-size: 0.95rem;
+  }
+
+  .menu-title {
+    font-size: 1.2rem;
+  }
+
+  .menu-description {
+    font-size: 0.85rem;
+  }
+
+  .menu-price {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-text {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .menu-title {
+    font-size: 1.25rem;
+  }
+
+  .menu-description {
+    font-size: 0.9rem;
+  }
+
+  .menu-price {
+    font-size: 1rem;
+  }
 }
